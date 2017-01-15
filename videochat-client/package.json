@@ -1,0 +1,26 @@
+{
+  "name": "videochat-client",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "react-scripts": "0.8.5"
+  },
+  "dependencies": {
+    "appearin-sdk": "0.0.4",
+    "babel-loader": "^6.2.10",
+    "react": "^15.4.2",
+    "react-cookie": "^1.0.4",
+    "react-dom": "^15.4.2",
+    "socket.io-client": "^1.7.2",
+    "socket.io-react": "^1.1.2",
+    "webpack": "^1.14.0"
+  },
+  "scripts": {
+		"dev": "WEBPACK_ENV=dev ./node_modules/.bin/webpack --watch --inline",
+  	"build": "WEBPACK_ENV=build ./node_modules/.bin/webpack",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
